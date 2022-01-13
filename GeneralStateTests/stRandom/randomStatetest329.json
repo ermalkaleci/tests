@@ -2,9 +2,9 @@
     "randomStatetest329" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.10.4-unstable-950d99c2-20210602",
-            "filling-tool-version" : "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
-            "lllcversion" : "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
+            "filling-rpc-server" : "evm version 1.10.4-stable-aa637fd3",
+            "filling-tool-version" : "retesteth-0.1.1-eip1559+commit.0e1fbab0.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2022.1.13+commit.401d5358.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stRandom/randomStatetest329Filler.json",
             "sourceHash" : "b22f496d55c0ce5f5533bbf5f82dd03692288f654253c5fd7dc034dadd706bcb"
         },
@@ -14,8 +14,7 @@
             "currentNumber" : "0x01",
             "currentTimestamp" : "0x03e8",
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6",
-            "currentGasLimit" : "0x7fffffffffffffff",
-            "currentBaseFee" : "0x0a"
+            "currentGasLimit" : "0x7fffffffffffffff"
         },
         "post" : {
             "Berlin" : [
@@ -27,6 +26,30 @@
                     },
                     "hash" : "0x761fcfefd8ae9fc24ef060850186bdb44b0abbfd0cec8c0b45b45ab4d66508a4",
                     "txbytes" : "0xf9015e800a846424e6d294095e7baea6a6c7c4c2dfeb977efac326af552d87845b5a0b6cb8f87f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000000000000000000000000000000000000000c3507ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe7f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b57f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff426fa48d775458574133769c8b750207ff1ca0c6ee3803e95321a3bf124ff8daf883f60bfe9463571dc4706cd3d7f8279c1297a04f150d604eff2f416b661caaa16734b86637a49f2ea88ded27c5c9a3f1d8eb97",
+                    "postState" : {
+                        "0x095e7baea6a6c7c4c2dfeb977efac326af552d87" : {
+                            "code" : "0x7f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000000000000000000000000000000000000000c3507ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe7f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b57f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff426fa48d775458574133769c8b750207ff5560005155",
+                            "nonce" : "0x00",
+                            "balance" : "0x5b5a0b6c",
+                            "storage" : {
+                                "0x00" : "0xa48d775458574133769c8b750207ff55"
+                            }
+                        },
+                        "0x945304eb96065b2a98b57a48a06ae28d285a71b5" : {
+                            "code" : "0x6000355415600957005b60203560003555",
+                            "nonce" : "0x00",
+                            "balance" : "0x06f334",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "balance" : "0x0de0b6b34c03018e",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ],
@@ -39,6 +62,30 @@
                     },
                     "hash" : "0xa62f440773b6ca9add9b28f40e06da5a21b3f04daacf917d94bde145d1e1eb20",
                     "txbytes" : "0xf9015e800a846424e6d294095e7baea6a6c7c4c2dfeb977efac326af552d87845b5a0b6cb8f87f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000000000000000000000000000000000000000c3507ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe7f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b57f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff426fa48d775458574133769c8b750207ff1ca0c6ee3803e95321a3bf124ff8daf883f60bfe9463571dc4706cd3d7f8279c1297a04f150d604eff2f416b661caaa16734b86637a49f2ea88ded27c5c9a3f1d8eb97",
+                    "postState" : {
+                        "0x095e7baea6a6c7c4c2dfeb977efac326af552d87" : {
+                            "code" : "0x7f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000000000000000000000000000000000000000c3507ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe7f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b57f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff426fa48d775458574133769c8b750207ff5560005155",
+                            "nonce" : "0x00",
+                            "balance" : "0x5b5a0b6c",
+                            "storage" : {
+                                "0x00" : "0xa48d775458574133769c8b750207ff55"
+                            }
+                        },
+                        "0x945304eb96065b2a98b57a48a06ae28d285a71b5" : {
+                            "code" : "0x6000355415600957005b60203560003555",
+                            "nonce" : "0x00",
+                            "balance" : "0x06a12c",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "balance" : "0x0de0b6b34c035396",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ],
@@ -51,6 +98,30 @@
                     },
                     "hash" : "0xab4e931c95c05cdcf8db6c415827a11c2f7c1de87971b0e0c22e4e6046ace6d8",
                     "txbytes" : "0xf9015e800a846424e6d294095e7baea6a6c7c4c2dfeb977efac326af552d87845b5a0b6cb8f87f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000000000000000000000000000000000000000c3507ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe7f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b57f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff426fa48d775458574133769c8b750207ff1ca0c6ee3803e95321a3bf124ff8daf883f60bfe9463571dc4706cd3d7f8279c1297a04f150d604eff2f416b661caaa16734b86637a49f2ea88ded27c5c9a3f1d8eb97",
+                    "postState" : {
+                        "0x095e7baea6a6c7c4c2dfeb977efac326af552d87" : {
+                            "code" : "0x7f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff7f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000000000000000000000000000000000000000c3507ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe7f000000000000000000000000945304eb96065b2a98b57a48a06ae28d285a71b57f00000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000ffffffffffffffffffffffffffffffffffffffff426fa48d775458574133769c8b750207ff5560005155",
+                            "nonce" : "0x00",
+                            "balance" : "0x5b5a0b6c",
+                            "storage" : {
+                                "0x00" : "0xa48d775458574133769c8b750207ff55"
+                            }
+                        },
+                        "0x945304eb96065b2a98b57a48a06ae28d285a71b5" : {
+                            "code" : "0x6000355415600957005b60203560003555",
+                            "nonce" : "0x00",
+                            "balance" : "0x2e",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "balance" : "0x0de0b6b34c03018e",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ]
