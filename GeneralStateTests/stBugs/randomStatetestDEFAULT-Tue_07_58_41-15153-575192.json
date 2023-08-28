@@ -2,10 +2,10 @@
     "randomStatetestDEFAULT-Tue_07_58_41-15153-575192" : {
         "_info" : {
             "comment" : "This is a canon example of a test found by fuzzing with EVMlab, demoing how a suicide-created-but-empty account has a non-zero codehash in geth",
-            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
-            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
-            "generatedTestHash" : "b49dee4f538d0682dc9b6101f2647256ee705f9bfeadaa72971d64d1c24657c4",
-            "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.5-stable-a38f4108",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.e98b5e62.Linux.g++",
+            "generatedTestHash" : "22bf90af4a25b967f3b0a50c9cc1350cee18f1d9184d38641c892f7192c0c7b7",
+            "lllcversion" : "Version: 0.5.14-develop.2023.8.28+commit.b2b86751.Linux.g++",
             "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stBugs/randomStatetestDEFAULT-Tue_07_58_41-15153-575192Filler.json",
             "sourceHash" : "2a26b63e20f50b005251bb3dd041b736fa280be129b57b5b84dc8fabfb05ba49"
@@ -30,6 +30,22 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0x1000000000000000000000000000000000000000" : {
+                            "balance" : "0x02d06a",
+                            "code" : "0x61dead6000600060006000600061dead5af162abcdef3f600155",
+                            "nonce" : "0x1c",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x5d8fdd3ff53fc84a",
+                            "code" : "0x",
+                            "nonce" : "0x1d",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf8601c0b835fde0794100000000000000000000000000000000000000080801ba05bcf308f6e13f1d310f7bf7c07d23668bfa84384314330c375849619d8bca497a07f8b3303b6d5daf687b482dec689a32d1829d573854757e3dd2e6f101ab36b4a"
                 }
             ],
@@ -42,6 +58,22 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0x1000000000000000000000000000000000000000" : {
+                            "balance" : "0x025e8c",
+                            "code" : "0x61dead6000600060006000600061dead5af162abcdef3f600155",
+                            "nonce" : "0x1c",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x5d8fdd3ff5403a28",
+                            "code" : "0x",
+                            "nonce" : "0x1d",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf8601c0b835fde0794100000000000000000000000000000000000000080801ba05bcf308f6e13f1d310f7bf7c07d23668bfa84384314330c375849619d8bca497a07f8b3303b6d5daf687b482dec689a32d1829d573854757e3dd2e6f101ab36b4a"
                 }
             ],
@@ -54,6 +86,22 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0x1000000000000000000000000000000000000000" : {
+                            "balance" : "0x82fc",
+                            "code" : "0x61dead6000600060006000600061dead5af162abcdef3f600155",
+                            "nonce" : "0x1c",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x5d8fdd3ff53cf7e0",
+                            "code" : "0x",
+                            "nonce" : "0x1d",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf8601c0b835fde0794100000000000000000000000000000000000000080801ba05bcf308f6e13f1d310f7bf7c07d23668bfa84384314330c375849619d8bca497a07f8b3303b6d5daf687b482dec689a32d1829d573854757e3dd2e6f101ab36b4a"
                 }
             ],
@@ -66,6 +114,22 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0x1000000000000000000000000000000000000000" : {
+                            "balance" : "0x82fc",
+                            "code" : "0x61dead6000600060006000600061dead5af162abcdef3f600155",
+                            "nonce" : "0x1c",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x5d8fdd3ff53cf7e0",
+                            "code" : "0x",
+                            "nonce" : "0x1d",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf8601c0b835fde0794100000000000000000000000000000000000000080801ba05bcf308f6e13f1d310f7bf7c07d23668bfa84384314330c375849619d8bca497a07f8b3303b6d5daf687b482dec689a32d1829d573854757e3dd2e6f101ab36b4a"
                 }
             ],
@@ -78,6 +142,22 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0x1000000000000000000000000000000000000000" : {
+                            "balance" : "0x82fc",
+                            "code" : "0x61dead6000600060006000600061dead5af162abcdef3f600155",
+                            "nonce" : "0x1c",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x5d8fdd3ff53cf7e0",
+                            "code" : "0x",
+                            "nonce" : "0x1d",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf8601c0b835fde0794100000000000000000000000000000000000000080801ba05bcf308f6e13f1d310f7bf7c07d23668bfa84384314330c375849619d8bca497a07f8b3303b6d5daf687b482dec689a32d1829d573854757e3dd2e6f101ab36b4a"
                 }
             ]

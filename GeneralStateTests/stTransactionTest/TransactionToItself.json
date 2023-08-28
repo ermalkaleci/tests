@@ -2,10 +2,10 @@
     "TransactionToItself" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
-            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
-            "generatedTestHash" : "125b94ac3f65819352695621a52697868601dafed34b4f9daadfa760ab86feee",
-            "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.5-stable-a38f4108",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.e98b5e62.Linux.g++",
+            "generatedTestHash" : "9210768be766da472c511996ce50622f168275530079ccf5bd04379f13bc03c4",
+            "lllcversion" : "Version: 0.5.14-develop.2023.8.28+commit.b2b86751.Linux.g++",
             "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stTransactionTest/TransactionToItselfFiller.json",
             "sourceHash" : "9e08eb3b90b911ac26c7b545d50e15f38e695f8dd18c022ecd21e266540803ce"
@@ -30,6 +30,22 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba" : {
+                            "balance" : "0x033450",
+                            "code" : "0x",
+                            "nonce" : "0x00",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x3b9795b0",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf85f800a8261a894a94f5374fce5edbc8e2a8697c15331677e6ebf0b01801ca066516edb238ae274d489690754f1cad62e33be9687eccc5c61ceb4c3e1c0f2cda0157a7499fd6b8c81fd3262408ec8e5d1dd3faa6dfa41341fd466ef675761b0ec"
                 }
             ],
@@ -42,6 +58,22 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba" : {
+                            "balance" : "0x033450",
+                            "code" : "0x",
+                            "nonce" : "0x00",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x3b9795b0",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf85f800a8261a894a94f5374fce5edbc8e2a8697c15331677e6ebf0b01801ca066516edb238ae274d489690754f1cad62e33be9687eccc5c61ceb4c3e1c0f2cda0157a7499fd6b8c81fd3262408ec8e5d1dd3faa6dfa41341fd466ef675761b0ec"
                 }
             ],
@@ -54,6 +86,15 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x3b9795b0",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf85f800a8261a894a94f5374fce5edbc8e2a8697c15331677e6ebf0b01801ca066516edb238ae274d489690754f1cad62e33be9687eccc5c61ceb4c3e1c0f2cda0157a7499fd6b8c81fd3262408ec8e5d1dd3faa6dfa41341fd466ef675761b0ec"
                 }
             ],
@@ -66,6 +107,15 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x3b9795b0",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf85f800a8261a894a94f5374fce5edbc8e2a8697c15331677e6ebf0b01801ca066516edb238ae274d489690754f1cad62e33be9687eccc5c61ceb4c3e1c0f2cda0157a7499fd6b8c81fd3262408ec8e5d1dd3faa6dfa41341fd466ef675761b0ec"
                 }
             ],
@@ -78,6 +128,15 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x3b9795b0",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf85f800a8261a894a94f5374fce5edbc8e2a8697c15331677e6ebf0b01801ca066516edb238ae274d489690754f1cad62e33be9687eccc5c61ceb4c3e1c0f2cda0157a7499fd6b8c81fd3262408ec8e5d1dd3faa6dfa41341fd466ef675761b0ec"
                 }
             ]

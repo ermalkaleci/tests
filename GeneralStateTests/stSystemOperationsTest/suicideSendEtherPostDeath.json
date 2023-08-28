@@ -2,10 +2,10 @@
     "suicideSendEtherPostDeath" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
-            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
-            "generatedTestHash" : "c4e99791487d3f7c9c49923575a5bc27fcd5a3ea2b417b81fde9f565b4c5bda9",
-            "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.5-stable-a38f4108",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.e98b5e62.Linux.g++",
+            "generatedTestHash" : "5e0ed4a23eb18167b6663bcd06a8eb1d236f20f500a8da27276d16763bbccb4d",
+            "lllcversion" : "Version: 0.5.14-develop.2023.8.28+commit.b2b86751.Linux.g++",
             "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSystemOperationsTest/suicideSendEtherPostDeathFiller.json",
             "sourceHash" : "8b1afa6cd4e6ab19f2d0e7efc7518a92635f558f2ae1b93bb98a08a1b5c9cbc6"
@@ -30,6 +30,22 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba" : {
+                            "balance" : "0x020c10",
+                            "code" : "0x",
+                            "nonce" : "0x00",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x0de0b6b3a7606d50",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf867800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0844d536fe31ca062a023f1e5b9c5569d78edc008af16cb7f09a95ed477184f39e830384db30ae9a0237a8f8260183aed5613127920ede45dcedded45063efe79fa6f6b0e283255e7"
                 }
             ],
@@ -42,6 +58,22 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba" : {
+                            "balance" : "0x022f38",
+                            "code" : "0x",
+                            "nonce" : "0x00",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x0de0b6b3a7604a28",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf867800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0844d536fe31ca062a023f1e5b9c5569d78edc008af16cb7f09a95ed477184f39e830384db30ae9a0237a8f8260183aed5613127920ede45dcedded45063efe79fa6f6b0e283255e7"
                 }
             ],
@@ -54,6 +86,15 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x0de0b6b3a75e614a",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf867800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0844d536fe31ca062a023f1e5b9c5569d78edc008af16cb7f09a95ed477184f39e830384db30ae9a0237a8f8260183aed5613127920ede45dcedded45063efe79fa6f6b0e283255e7"
                 }
             ],
@@ -66,6 +107,15 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x0de0b6b3a75e614a",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf867800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0844d536fe31ca062a023f1e5b9c5569d78edc008af16cb7f09a95ed477184f39e830384db30ae9a0237a8f8260183aed5613127920ede45dcedded45063efe79fa6f6b0e283255e7"
                 }
             ],
@@ -78,6 +128,15 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x0de0b6b3a75e614a",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        }
+                    },
                     "txbytes" : "0xf867800a832dc6c094095e7baea6a6c7c4c2dfeb977efac326af552d87830186a0844d536fe31ca062a023f1e5b9c5569d78edc008af16cb7f09a95ed477184f39e830384db30ae9a0237a8f8260183aed5613127920ede45dcedded45063efe79fa6f6b0e283255e7"
                 }
             ]

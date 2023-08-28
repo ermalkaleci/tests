@@ -2,10 +2,10 @@
     "senderBalance" : {
         "_info" : {
             "comment" : "The execution records the EIP-1559 transaction origin balance to make sure its value is \nproperly computed based on the effective gas price (not the maximum gas price as in \nthe transaction validity check).\n",
-            "filling-rpc-server" : "evm version 1.11.4-unstable-e14043db-20230308",
-            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.fd2c0a83.Linux.g++",
-            "generatedTestHash" : "424bf75674bc0fb8c7a5cfb3ede7ba5892257604d2412b8298732dea4f50383d",
-            "lllcversion" : "Version: 0.5.14-develop.2022.7.30+commit.a096d7a9.Linux.g++",
+            "filling-rpc-server" : "evm version 1.11.5-stable-a38f4108",
+            "filling-tool-version" : "retesteth-0.3.0-shanghai+commit.e98b5e62.Linux.g++",
+            "generatedTestHash" : "f8c04d8a3738175287a8a50d25fd81e79fbfc9f0b3c81505bd78a10b93e55d59",
+            "lllcversion" : "Version: 0.5.14-develop.2023.8.28+commit.b2b86751.Linux.g++",
             "solidity" : "Version: 0.8.17+commit.8df45f5f.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stEIP1559/senderBalanceFiller.yml",
             "sourceHash" : "bc5de911e01ae29396bd8a97fafbba54398ad541af8ad5951ce8d36a88ea2dee"
@@ -30,6 +30,30 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba" : {
+                            "balance" : "0x41ecf4",
+                            "code" : "0x",
+                            "nonce" : "0x00",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x0de0b6b3a71ad295",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        },
+                        "0xcccccccccccccccccccccccccccccccccccccccc" : {
+                            "balance" : "0x00",
+                            "code" : "0x3331600055",
+                            "nonce" : "0x00",
+                            "storage" : {
+                                "0x00" : "0x0de0b6b3a6fe6060"
+                            }
+                        }
+                    },
                     "txbytes" : "0x02f8640180648203e882ea6094cccccccccccccccccccccccccccccccccccccccc8080c001a0d7c1f4c6e208e7153ffaa09e1d4b5f104d7a999a890531d500cdc3cf753a84e3a052cf8bc07a02a86a2831bef15e099a21d1a646e5f2a5307f7ae53fe1acbd9794"
                 }
             ],
@@ -42,6 +66,30 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba" : {
+                            "balance" : "0x41ecf4",
+                            "code" : "0x",
+                            "nonce" : "0x00",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x0de0b6b3a71ad295",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        },
+                        "0xcccccccccccccccccccccccccccccccccccccccc" : {
+                            "balance" : "0x00",
+                            "code" : "0x3331600055",
+                            "nonce" : "0x00",
+                            "storage" : {
+                                "0x00" : "0x0de0b6b3a6fe6060"
+                            }
+                        }
+                    },
                     "txbytes" : "0x02f8640180648203e882ea6094cccccccccccccccccccccccccccccccccccccccc8080c001a0d7c1f4c6e208e7153ffaa09e1d4b5f104d7a999a890531d500cdc3cf753a84e3a052cf8bc07a02a86a2831bef15e099a21d1a646e5f2a5307f7ae53fe1acbd9794"
                 }
             ],
@@ -54,6 +102,30 @@
                         "value" : 0
                     },
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "postState" : {
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba" : {
+                            "balance" : "0x41ecf4",
+                            "code" : "0x",
+                            "nonce" : "0x00",
+                            "storage" : {
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+                            "balance" : "0x0de0b6b3a71ad295",
+                            "code" : "0x",
+                            "nonce" : "0x01",
+                            "storage" : {
+                            }
+                        },
+                        "0xcccccccccccccccccccccccccccccccccccccccc" : {
+                            "balance" : "0x00",
+                            "code" : "0x3331600055",
+                            "nonce" : "0x00",
+                            "storage" : {
+                                "0x00" : "0x0de0b6b3a6fe6060"
+                            }
+                        }
+                    },
                     "txbytes" : "0x02f8640180648203e882ea6094cccccccccccccccccccccccccccccccccccccccc8080c001a0d7c1f4c6e208e7153ffaa09e1d4b5f104d7a999a890531d500cdc3cf753a84e3a052cf8bc07a02a86a2831bef15e099a21d1a646e5f2a5307f7ae53fe1acbd9794"
                 }
             ]
